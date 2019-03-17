@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url('DancingScript-Regular.ttf');
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px){
+
+  header{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+  header h1{
+    text-align: center;
+
+  }
+
+  header a{
+    text-align: left;
+    margin-left: -400px;
+    display: flex;
+    flex-flow:row;
+
+
+  }
+
+
+  #responsivo{
+    width: 100%;
+  }
+
+	body{
+		font-size: 10px;
+
+	}
+
+  #paisaje{
+    max-width: 300px;
+    max-height: 300px
+  }
+
+
+  #urbano{
+    width: 150px;
+    height: 150px;
+
+  }
+
+  #retrato{
+    width: 150px;
+    height: 150px;
+
+  }
+
+  #fotosretrato{
+    width: 554px;
+  }
+
+  #fotosretrato figure{
+    display: inline-block;
+
+  }
+
+  #imagenespaisajes{
+    width: 554px;
+  }
+
+  #imagenespaisajes figure{
+    display:inline-block;
+
+
+  }
+
+
+
+
+}
+
+
+
+
+
+body{
+  background-color: #02010a;
+  font-family: 'DancingScript-Regular';
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header{
+  background-color: #5b7989;
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 30px 30px 0 0;
+  text-indent: 10px;
+  margin: 0 auto;
+  animation-name: rebote;
+  animation-duration: 2s;
+
+}
+
+@keyframes rebote {
+
+  0%{
+    margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
+
+
+
+}
+
+header h1{
+  text-shadow: 0 0 2px #02010a;
+}
+
+header a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 2px #02010a;
+  position:relative;
+  left: 600px;
+  font-size: 20px;
+  padding-top: 27px;
+  text-indent: 20px;
+}
+
+section{
+  background-color: #82c3a6;
+  margin: 0 auto;
+  border-radius: 0 0 0 0;
+}
+ section img{
+  position:relative;
+  left: 22%;
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+article{
+  background-color: #d5c75f;
+  border: 1px;
+  border-radius: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+article img{
+  width: 300px;
+  height: 300px;
+}
+
+#urbano{
+  display:flex;
+  flex-flow: column;
+  position:relative;
+  left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 2s;
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px;
+  margin: 0 auto;
+
+}
+
+#urbano:hover{
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+
+}
+
+#retrato{
+  display: flex;
+  flex-flow: column;
+  position:relative;
+  left: 550px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 2s;
+  box-shadow: 2px 2px #82c3a6;
+}
+
+#retrato:hover{
+  -webkit-transform: translate(20px,-5px);
+  transform: rotate(20px,-5px);
+
+}
+
+footer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-indent: 120px;
+  background-color: #C6d5c5;
+  border-radius: 0 0 30px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.contacto p{
+  flex-direction: column;
+  order: 1;
+  text-align: center;
+}
+
+.terminos{
+  flex-direction: column;
+  order: 2;
+}
+
+.redes{
+  flex-direction: column;
+  order: 3;
+}
+
+.redes img{
+  width: 15px;
+  height: 15px;
+}
+
+.derechos{
+  flex-direction: column;
+  order: 4;
+}
+
+
+#imagenespaisajes{
+  display: inline-block;
+  column-count: 3;
+  flex-flow: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.img1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.img2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img3{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img4{
+
+}
+
+.img5{
+-webkit-filter: sepia(90%);
+filter: sepia(90%);
+}
+
+.img6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+#direccion{
+  position: relative;
+  right: -30px;
+  text-align: center;
+
+}
+
+#fotosretrato{
+  display: inline-block;
+  column-count: 3;
+  flex-flow: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imagen1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.imagen2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.imagen3{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.imagen4{
+
+}
+
+.imagen5{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+.imagen6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
